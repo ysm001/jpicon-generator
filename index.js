@@ -10,7 +10,7 @@ const parseArgs = () => {
   const options = {
     size: argv.size || 64,
     seed: argv.seed || parseInt(Math.random() * 10000),
-    output: argv.output || path.join(process.cwd(), `./output.png`),
+    output: argv.output || path.join(process.cwd(), `./output/icon.png`),
     help: argv.h || argv.help
   };
 
