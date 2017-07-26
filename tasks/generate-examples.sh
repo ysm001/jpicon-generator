@@ -1,0 +1,9 @@
+node index.js --size=64 --seed=1 --output=./examples/seed-1.png
+node index.js --size=64 --seed=12 --output=./examples/seed-12.png
+node index.js --size=64 --seed=123 --output=./examples/seed-123.png
+node index.js --size=64 --seed=1234 --output=./examples/seed-1234.png
+node index.js --size=64 --seed=12345 --output=./examples/seed-12345.png
+node index.js --size=64 --seed=123456 --output=./examples/seed-123456.png
+node index.js --size=64 --seed=1234567 --output=./examples/seed-1234567.png
+node index.js --size=64 --seed=12345678 --output=./examples/seed-12345678.png
+node index.js --size=64 --seed=123456789 --output=./examples/seed-123456789.png
