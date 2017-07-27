@@ -14,10 +14,18 @@ This is a tool to generate randomized japanese style icon.
 
 ## Usage
 ```
-Usage: jpicon [--size] [--seed] [--output]
---size: size of icon. (default: 64)
---seed: seed of random numbers to generate icon. (default: random number)
---output: file path to output. (default: ./output.png)
+Usage: jpicon [options]
+
+Options:
+  --size:              size of icon. (default: 64)
+  --seed:              seed of random numbers to generate icon. (default: random number)
+  --slice-num:         slice number of circle
+  --offset-rotation:   offset of icon's rotation
+  --offset-scale:      offset of icon's scale
+  --offset-x:          offset of icon's x position
+  --offset-y:          offset of icon's y position
+  --palette:           palette name
+  --output:            file path to output. (default: ./output.png)
 ```
 
 ## Datasource
