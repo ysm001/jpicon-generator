@@ -26,10 +26,18 @@ const parseArgs = () => {
 const options = parseArgs();
 
 if (options.help) {
-  console.info('Usage: jpicon [--size] [--seed] [--output]');
-  console.info('--size: size of icon. (default: 64)');
-  console.info('--seed: seed of random numbers to generate icon. (default: random number)');
-  console.info('--output: file path to output. (default: ./output.png)');
+  console.info('Usage: jpicon [options]');
+  console.info('');
+  console.info('Options:');
+  console.info('  --size:              size of icon. (default: 64)');
+  console.info('  --seed:              seed of random numbers to generate icon. (default: random number)');
+  console.info('  --slice-num:         slice number of circle');
+  console.info('  --offset-rotation:   offset of icon\'s rotation');
+  console.info('  --offset-scale:      offset of icon\'s scale');
+  console.info('  --offset-x:          offset of icon\'s x position');
+  console.info('  --offset-y:          offset of icon\'s y position');
+  console.info('  --palette:           palette name');
+  console.info('  --output:            file path to output. (default: ./output.png)');
   process.exit(0);
 }
 
