@@ -12,7 +12,11 @@ This is a tool to generate randomized japanese style icon.
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12345678.png)
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-123456789.png)
 
-## Usage
+## CLI
+### Install
+`npm install -g jpicon`
+
+### Usage
 ```
 Usage: jpicon [options]
 
@@ -28,5 +32,31 @@ Options:
   --output:            file path to output. (default: ./output.png)
 ```
 
+## JS API
+### Install
+`npm install jpicon`
+
+### Usage
+```
+const JPICON = require('jpicon');
+const fs = require('fs');
+const options = {
+  size: 64,
+  seed: parseInt(Math.random() * 10000),
+  sliceNum: 12,
+  offsetRotation: 0,
+  offsetScale: 0,
+  offsetX: 0,
+  offsetY: 0,
+  palette: 'pattern1'
+
+};
+
+// JPICON.generate returns icon data and params used to generate icon
+const ret = JPICON.generate(options);
+fs.writeFileSync('./icon.png', ret.icon);
+console.log(ret.params);
+```
+
 ## Datasource
-http://eps.crest-japan.net/
+Textures used for generating icons are got from http://eps.crest-japan.net/
