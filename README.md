@@ -3,9 +3,11 @@
 This is a tool to generate randomized japanese style icon.
 
 ## Examples
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-2.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-3.png)
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-1234.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12345.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-6.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-9.png)
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-1234567.png)
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12345678.png)
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-123456789.png)
