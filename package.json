@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-examples": "sh ./tasks/generate-examples.sh",
+    "generate-examples": "node ./tasks/generate-examples.js && open ./examples/index.html",
     "generate-palettes": "mogrify -format png data/palettes/* && node ./tasks/generate-color-palette.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
