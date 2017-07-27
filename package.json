@@ -10,6 +10,7 @@
   "dependencies": {
     "canvas": "^1.6.5",
     "glob": "^7.1.2",
+    "hex-rgb": "^1.0.0",
     "mersenne-twister": "^1.1.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1"
