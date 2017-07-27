@@ -1,4 +1,5 @@
 const JPIconGenerator = require('./lib/jpicon-generator.js');
+const Palettes = require('./lib/palettes.js');
 const fs = require('fs');
 const path = require('path');
 const minimist = require('minimist');
@@ -11,7 +12,13 @@ const parseArgs = () => {
     help: argv.h || argv.help,
     jpicon: {
       size: argv.size || 64,
-      seed: argv.seed || parseInt(Math.random() * 10000)
+      seed: argv.seed || parseInt(Math.random() * 10000),
+      sliceNum: argv['slice-num'],
+      offsetRotation: argv['offset-rotation'],
+      offsetScale: argv['offset-scale'],
+      offsetX: argv['offset-x'],
+      offsetY: argv['offset-y'],
+      palette: argv.palette ? Palettes.find(argv.palette) : null
     }
   };
 };
