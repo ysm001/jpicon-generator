@@ -3,14 +3,16 @@
 This is a tool to generate randomized japanese style icon.
 
 ## Examples
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-2.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-3.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-6.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-9.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-1234567.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-12345678.png)
-![](https://github.com/ysm001/jpicon-generator/blob/master/examples/seed-123456789.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-23.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-46.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-55.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-109.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-203.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-266.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-285.png)
+![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-288.png)
+
+[More examples](https://github.com/ysm001/jpicon-generator/tree/master/examples/images)
 
 ## CLI
 ### Install
