@@ -8,7 +8,7 @@ const mkdirp = require('mkdirp');
 const parseArgs = () => {
   const argv = minimist(process.argv.slice(2));
   return {
-    output: argv.output || path.join(process.cwd(), `./output/icon.png`),
+    output: argv.output || path.join(process.cwd(), './output/icon.png'),
     help: argv.h || argv.help,
     jpicon: {
       size: argv.size || 64,
@@ -41,8 +41,11 @@ if (options.help) {
   process.exit(0);
 }
 
-({icon, params} = JPIconGenerator.generate(options.jpicon));
+const ret = JPIconGenerator.generate(options.jpicon);
+const icon = ret.icon;
+const params = ret.params;
+
 mkdirp(path.dirname(options.output));
-fs.writeFileSync(options.output, icon)
+fs.writeFileSync(options.output, icon);
 console.info(params);
 console.info(`file is successfully generated. (${options.output})`);
