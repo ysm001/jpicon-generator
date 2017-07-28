@@ -1,7 +1,7 @@
 {
-  "name": "jpicon-generator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "jpicon",
+  "version": "0.0.1",
+  "description": "JPIcon is a library/CLI which generate an japanese-style identicon image.",
   "main": "index.js",
   "scripts": {
     "generate-examples": "node ./tasks/generate-examples.js && open ./examples/index.html",
@@ -11,16 +11,22 @@
   "bin": {
     "jpicon": "./cli.js"
   },
-  "author": "",
+  "author": "ysm001",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "canvas": "^1.6.5",
-    "color-thief": "^2.2.2",
-    "eslint": "^4.3.0",
     "glob": "^7.1.2",
     "hex-rgb": "^1.0.0",
     "mersenne-twister": "^1.1.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "color-thief": "^2.2.2",
     "rgb-hex": "^2.1.0"
   }
 }
