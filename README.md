@@ -1,6 +1,6 @@
-# JPIcon Generator
+# JPIcon
 
-JPIcon is a library/CLI which generates an japanese-style identicon image.
+JPIcon is a Node.js library/CLI which generates an japanese-style identicon image.
 
 ## Examples
 ![](https://github.com/ysm001/jpicon-generator/blob/master/examples/images/seed-23.png)
