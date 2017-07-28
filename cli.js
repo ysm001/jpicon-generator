@@ -31,14 +31,14 @@ if (options.help) {
   console.info('');
   console.info('Options:');
   console.info('  --size:              size of icon. (default: 64)');
-  console.info('  --seed:              seed of random numbers to generate icon. (default: random number)');
-  console.info('  --slice-num:         slice number of circle');
-  console.info('  --offset-rotation:   offset of icon\'s rotation');
-  console.info('  --offset-scale:      offset of icon\'s scale');
-  console.info('  --offset-x:          offset of icon\'s x position');
-  console.info('  --offset-y:          offset of icon\'s y position');
+  console.info('  --seed:              seed of random numbers to generate icon. (default: random value)');
+  console.info('  --slice-num:         slice number of circle. (default: 12)');
+  console.info('  --offset-rotation:   offset of icon\'s rotation. (default: random value)');
+  console.info('  --offset-scale:      offset of icon\'s scale. (default: random value)');
+  console.info('  --offset-x:          offset of icon\'s x position. (default: random value)');
+  console.info('  --offset-y:          offset of icon\'s y position. (default: random value)');
   console.info('  --shape:             shape of icon (square | circle) (default: circle)');
-  console.info('  --palette:           palette name');
+  console.info('  --palette:           palette name (default: random value)');
   console.info('  --output:            file path to output. (default: ./output.png)');
   process.exit(0);
 }
