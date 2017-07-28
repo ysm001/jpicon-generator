@@ -18,6 +18,7 @@ const parseArgs = () => {
       offsetScale: argv['offset-scale'],
       offsetX: argv['offset-x'],
       offsetY: argv['offset-y'],
+      shape: argv.shape || 'circle',
       palette: argv.palette ? Palettes.find(argv.palette) : null
     }
   };
@@ -36,6 +37,7 @@ if (options.help) {
   console.info('  --offset-scale:      offset of icon\'s scale');
   console.info('  --offset-x:          offset of icon\'s x position');
   console.info('  --offset-y:          offset of icon\'s y position');
+  console.info('  --shape:             shape of icon (square | circle) (default: circle)');
   console.info('  --palette:           palette name');
   console.info('  --output:            file path to output. (default: ./output.png)');
   process.exit(0);
