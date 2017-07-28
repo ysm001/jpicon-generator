@@ -1,7 +1,7 @@
 {
   "name": "jpicon",
   "version": "0.0.1",
-  "description": "JPIcon is a library/CLI which generate an japanese-style identicon image.",
+  "description": "JPIcon is a library/CLI which generates an japanese-style identicon image.",
   "main": "index.js",
   "scripts": {
     "generate-examples": "node ./tasks/generate-examples.js && open ./examples/index.html",
