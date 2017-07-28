@@ -24,13 +24,14 @@ Usage: jpicon [options]
 
 Options:
   --size:              size of icon. (default: 64)
-  --seed:              seed of random numbers to generate icon. (default: random number)
-  --slice-num:         slice number of circle
-  --offset-rotation:   offset of icon's rotation
-  --offset-scale:      offset of icon's scale
-  --offset-x:          offset of icon's x position
-  --offset-y:          offset of icon's y position
-  --palette:           palette name
+  --seed:              seed of random numbers to generate icon. (default: random value)
+  --slice-num:         slice number of circle. (default: 12)
+  --offset-rotation:   offset of icon's rotation. (default: random value)
+  --offset-scale:      offset of icon's scale. (default: random value)
+  --offset-x:          offset of icon's x position. (default: random value)
+  --offset-y:          offset of icon's y position. (default: random value)
+  --shape:             shape of icon (square | circle) (default: circle)
+  --palette:           palette name (default: random value)
   --output:            file path to output. (default: ./output.png)
 ```
 
