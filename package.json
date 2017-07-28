@@ -11,6 +11,9 @@
   "bin": {
     "jpicon": "./cli.js"
   },
+  "keywords": [
+    "javascript", "identicon", "avatar"
+  ],
   "author": "ysm001",
   "license": "MIT",
   "engines": {
